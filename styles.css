@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poetsen+One&display=swap');
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(56, 56, 252);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+    background-color: rgb(15, 15, 15);
+    font-size: x-large;
+}
+
+img{
+    width: 250px;
+}
+h1{
+    font-size: 45px;
+    color: rgb(31, 3, 65);
+    font-family:  "Poetsen One", sans-serif;
+}
+p{
+    font-size: 25px;
+    color: rgb(48, 47, 47);
+}
+h2{
+    font-size: 29px;
+    color: rgb(9, 1, 37);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacionh2 {
+    font-size: 30px;
+    font-family: "Cinzel", serif;
+}
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 20px;
+    margin: 20px;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(240, 242, 243);
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.caja img{
+    border-radius: 27%;
+}
+.caja p{
+    font-size: 21px;
+}
+.footer{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
